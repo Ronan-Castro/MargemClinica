@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaControle", "ClinicaControle.csproj", "{78FBAABE-BF49-498A-A5B2-5FAA55388085}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B858BF17-C9B2-4904-93DF-21FBDE9689B7} = {B858BF17-C9B2-4904-93DF-21FBDE9689B7}
+		{B95A10F7-B51B-4CA5-9F05-A6E3A5CFDE11} = {B95A10F7-B51B-4CA5-9F05-A6E3A5CFDE11}
+		{E15B54A3-3B44-42AC-A899-F730F11541B5} = {E15B54A3-3B44-42AC-A899-F730F11541B5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaControle.Domain", "ClinicaControle.Domain\ClinicaControle.Domain.csproj", "{B95A10F7-B51B-4CA5-9F05-A6E3A5CFDE11}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E15B54A3-3B44-42AC-A899-F730F11541B5} = {E15B54A3-3B44-42AC-A899-F730F11541B5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaControle.Infrastructure", "ClinicaControle.Infrastructure\ClinicaControle.Infrastructure.csproj", "{E15B54A3-3B44-42AC-A899-F730F11541B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaControle.Application", "ClinicaControle.Application\ClinicaControle.Application.csproj", "{B858BF17-C9B2-4904-93DF-21FBDE9689B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78FBAABE-BF49-498A-A5B2-5FAA55388085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FBAABE-BF49-498A-A5B2-5FAA55388085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FBAABE-BF49-498A-A5B2-5FAA55388085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FBAABE-BF49-498A-A5B2-5FAA55388085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95A10F7-B51B-4CA5-9F05-A6E3A5CFDE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95A10F7-B51B-4CA5-9F05-A6E3A5CFDE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95A10F7-B51B-4CA5-9F05-A6E3A5CFDE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95A10F7-B51B-4CA5-9F05-A6E3A5CFDE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E15B54A3-3B44-42AC-A899-F730F11541B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15B54A3-3B44-42AC-A899-F730F11541B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15B54A3-3B44-42AC-A899-F730F11541B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15B54A3-3B44-42AC-A899-F730F11541B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B858BF17-C9B2-4904-93DF-21FBDE9689B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B858BF17-C9B2-4904-93DF-21FBDE9689B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B858BF17-C9B2-4904-93DF-21FBDE9689B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B858BF17-C9B2-4904-93DF-21FBDE9689B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
