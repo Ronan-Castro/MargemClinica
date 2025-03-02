@@ -1,0 +1,20 @@
+6% base
+6,5% caso seja acima de 40 mil
+7% caso passse de 60 mil
+
+desconto na venda
+
+tirar o valor da maquininha e fazer um rateio
+
+Dentista recebe 20% do procedimento em plano, quando endo é 45% e o restante fixo
+
+Desconto do bruno no cpf de 25$ +ou- para o plano da uniodonto
+
+
+
+Cadastro de procedimentos
+Margem
+Cadastro de Matérias primas
+Composição
+Desperdício - Calcular os gastos das matérias
+Atualização de preço
